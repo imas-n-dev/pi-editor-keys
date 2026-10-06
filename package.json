@@ -1,6 +1,6 @@
 {
 	"name": "pi-editor-keys",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Shift-select, Ctrl+C/X/V/A clipboard keys for the Pi prompt editor",
 	"type": "module",
 	"license": "MIT",
