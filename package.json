@@ -1,0 +1,44 @@
+{
+	"name": "pi-editor-keys",
+	"version": "0.1.0",
+	"description": "Shift-select, Ctrl+C/X/V/A clipboard keys for the Pi prompt editor",
+	"type": "module",
+	"license": "MIT",
+	"author": "Imas Neupane",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/imas-n-dev/pi-editor-keys.git"
+	},
+	"homepage": "https://github.com/imas-n-dev/pi-editor-keys#readme",
+	"bugs": "https://github.com/imas-n-dev/pi-editor-keys/issues",
+	"keywords": [
+		"pi-package",
+		"pi",
+		"pi-extension",
+		"editor",
+		"selection",
+		"clipboard",
+		"keybindings"
+	],
+	"files": [
+		"extensions",
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"pi": {
+		"extensions": [
+			"./extensions/index.ts"
+		]
+	},
+	"scripts": {
+		"test": "node --test test/*.test.ts"
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": ">=1.0.0",
+		"@earendil-works/pi-tui": ">=1.0.0"
+	},
+	"engines": {
+		"node": ">=22.19.0"
+	}
+}
